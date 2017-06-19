@@ -79,3 +79,24 @@ Matlab scripts that can generate additional data.
 This information is only accessible by people who are already enrolled in Term 2
 of CarND. If you are enrolled, see [the project page](https://classroom.udacity.com/nanodegrees/nd013/parts/40f38239-66b6-46ec-ae68-03afd8a601c8/modules/0949fca6-b379-42af-a919-ee50aa304e6a/lessons/c3eb3583-17b2-4d83-abf7-d852ae1b9fff/concepts/f437b8b0-f2d8-43b0-9662-72ac4e4029c1)
 for instructions and the project rubric.
+
+## Results
+
+[//]: # (Image References)
+[image1]: ./result/both_radar_lidar.png
+
+
+#### 1. Result with both Lidar and Radar Measurements (dataset1):
+![alt text][image1]
+RMSE: [0.0667, 0.0989, 0.3029, 0.2747] 
+
+Test Spec: RMSE <= [.09, .10, .40, .30]
+
+RMSE is within spec, test PASS!
+
+
+#### 2. Compare UKF and EKF project results. Both projects use the same data file. But UKF shows better result.
+
+UKF RMSE: [0.0667, 0.0989, 0.3029, 0.2747] 
+
+EKF RMSE: [0.0974, 0.0855, 0.4517, 0.4404]  
